@@ -83,12 +83,12 @@ label= "BASE"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
-    &mt LCTRL Q  &kp W       &kp E       &kp R       &kp T          &kp Y        &kp U      &kp I           &kp O        &kp P
-    &kp A        &kp S       &kp D       &kp F       &kp G          &kp H        &kp J      &kp K           &kp L        &kp SEMI
-    &mt LSHFT Z  &mt LALT X  &kp C       &kp V       &kp B          &kp N        &kp M      &mt RCTRL COMMA &mt RALT DOT &mt RSHFT FSLH
-                                         &lt SYM SPC &mt LGUI TAB   &mt RGUI RET &lt NAV BSPC
+    &mt LCTRL Q  &kp W       &kp E       &kp R       &kp T          &kp Y       &kp U       &kp I           &kp O        &kp P
+    &kp A        &kp S       &kp D       &kp F       &kp G          &kp H       &kp J       &kp K           &kp L        &mt RGUI SEMI
+    &mt LSHFT Z  &mt LALT X  &kp C       &kp V       &kp B          &kp N       &kp M       &mt RCTRL COMMA &mt RALT DOT &mt RSHFT FSLH
+                                         &lt SYM SPC &mt LGUI TAB   &kp NAV     &kp BSPC
                         >;
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_AC_DESKTOP_SHOW_ALL_WINDOWS C_AC_DESKTOP_SHOW_ALL_APPLICATIONS>;
                 };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -128,7 +128,7 @@ label= "SYM"                               ;
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 // ┃           ┃           ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃     {     ┃     ˆ     ┃     ~     ┃  SCRNSHT  ┃     }     ┃   ┃   MUTE    ┃           ┃           ┃           ┃           ┃
+// ┃     {     ┃     ˆ     ┃     ~     ┃  SCRNSHT  ┃     }     ┃   ┃   MUTE    ┃   ENTER   ┃           ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃  EMAIL1   ┃  EMAIL2   ┃   CAPS    ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     \     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -138,7 +138,7 @@ label= "SYM"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
     &trans      &trans       &trans     &trans          &trans       &trans        &trans        &trans      &trans      &trans
-    &kp LBRC    &kp CARET    &kp TILDE  &kp LS(RG(N4))  &kp RBRC     &kp C_MUTE    &trans        &trans      &trans      &trans
+    &kp LBRC    &kp CARET    &kp TILDE  &kp LS(RG(N4))  &kp RBRC     &kp C_MUTE    &kp RET        &trans      &trans      &trans
     &kp RA(F18) &kp RA(F19)  &kp CAPS   &trans          &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp BSLH
                                         &gif            &trans       &mo ADJ       &kp C_PP
                         >;
