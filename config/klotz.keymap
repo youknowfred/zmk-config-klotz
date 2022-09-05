@@ -83,10 +83,10 @@ label= "BASE"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
-    &kp Q        &kp W       &kp E       &kp R        &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
-    &mt LSHFT A  &mt LALT S  &mt LCTRL D &mt LGUI F   &kp G           &kp H       &mt RGUI J  &mt RCTRL K &mt RALT L  &mt RSHFT SEMI
-    &kp Z        &kp X       &kp C       &kp V        &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH
-                                         &kp SPC      &lt SYM TAB     &lt NAV RET &kp BSPC
+    &mt LCTRL Q  &kp W       &kp E       &kp R       &kp T          &kp Y        &kp U      &kp I           &kp O        &kp P
+    &kp A        &kp S       &kp D       &kp F       &kp G          &kp H        &kp J      &kp K           &kp L        &kp SEMI
+    &mt LSHFT Z  &mt LALT X  &kp C       &kp V       &kp B          &kp N        &kp M      &mt RCTRL COMMA &mt RALT DOT &mt RSHFT FSLH
+                                         &lt SYM SPC &mt LGUI TAB   &mt RGUI RET &lt NAV BSPC
                         >;
             sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
                 };
