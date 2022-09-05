@@ -83,12 +83,12 @@ label= "BASE"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
-    &mt LCTRL Q  &kp W       &kp E       &kp R        &kp T          &kp Y       &kp U       &kp I       &kp O        &mt RCTRL P
-    &kp A        &kp S       &kp D       &kp F        &kp G          &kp H       &kp J       &kp K       &kp L        &kp SEMI
-    &mt LSHFT Z  &mt LALT X  &kp C       &kp V        &kp B          &kp N       &kp M       &kp COMMA   &mt RALT DOT &mt RSHFT FSLH
-                                         &mt LGUI SPC &lt SYM TAB    &mo NAV     &mt RGUI BSPC
+    &mt LCTRL Q    &kp W       &kp E       &kp R        &kp T          &kp Y       &kp U       &kp I       &kp O       &mt RCTRL P
+    &mt LSHFT A    &kp S       &kp D       &kp F        &kp G          &kp H       &kp J       &kp K       &kp L       &mt RSHFT SEMI
+    &mt LALT Z     &kp X       &kp C       &kp V        &kp B          &kp N       &kp M       &kp COMMA   &kp DOT     &mt RALT  FSLH
+                                           &mt LGUI SPC &lt SYM TAB    &mo NAV     &mt RGUI BSPC
                         >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
                 };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
