@@ -86,9 +86,9 @@ label= "BASE"                              ;
     &mt LCTRL Q  &kp W       &kp E       &kp R       &kp T          &kp Y       &kp U       &kp I           &kp O        &kp P
     &kp A        &kp S       &kp D       &kp F       &kp G          &kp H       &kp J       &kp K           &kp L        &mt RGUI SEMI
     &mt LSHFT Z  &mt LALT X  &kp C       &kp V       &kp B          &kp N       &kp M       &mt RCTRL COMMA &mt RALT DOT &mt RSHFT FSLH
-                                         &lt SYM SPC &mt LGUI TAB   &kp NAV     &kp BSPC
+                                         &lt SYM SPC &mt LGUI TAB   &mo NAV     &kp BSPC
                         >;
-            sensor-bindings = <&inc_dec_kp C_AC_DESKTOP_SHOW_ALL_WINDOWS C_AC_DESKTOP_SHOW_ALL_APPLICATIONS>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
                 };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
