@@ -74,7 +74,7 @@ label= "BASE"                              ;
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 // ┃     Q     ┃     W     ┃     E     ┃     R     ┃     T     ┃   ┃     Y     ┃     U     ┃     I     ┃     O     ┃     P     ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃     A     ┃     S     ┃     D     ┃     F     ┃     G     ┃   ┃     H     ┃     J     ┃     K     ┃     L     ┃     ;     ┃
+// ┃     A     ┃     S     ┃     D     ┃     F     ┃     G     ┃   ┃     H     ┃     J     ┃     K     ┃     L     ┃     '     ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,     ┃     .     ┃     /     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -84,7 +84,7 @@ label= "BASE"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
     &mt LCTRL Q    &kp W       &kp E       &kp R        &kp T         &kp Y         &kp U      &kp I      &kp O      &mt RCTRL P
-    &mt LSHFT A    &kp S       &kp D       &kp F        &kp G         &kp H         &kp J      &kp K      &kp L      &mt RSHFT SEMI
+    &mt LSHFT A    &kp S       &kp D       &kp F        &kp G         &kp H         &kp J      &kp K      &kp L      &mt RSHFT APOS
     &mt LALT Z     &kp X       &kp C       &kp V        &kp B         &kp N         &kp M      &kp COMMA  &kp DOT    &mt RALT  FSLH
                                            &lt SYM SPC  &mt LGUI TAB  &mt RGUI RET  &lt NAV BSPC
                         >;
@@ -128,7 +128,7 @@ label= "SYM"                               ;
 // ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 // ┃     {     ┃     ~     ┃    ESC    ┃     ˆ     ┃     }     ┃   ┃           ┃           ┃           ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-// ┃   CAPS    ┃  SCRNSHT  ┃     '     ┃     "     ┃           ┃   ┃   MUTE    ┃   ENTER   ┃           ┃           ┃           ┃
+// ┃   CAPS    ┃  SCRNSHT  ┃     ;     ┃     :     ┃           ┃   ┃   MUTE    ┃   ENTER   ┃           ┃           ┃           ┃
 // ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 // ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     \     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -137,10 +137,10 @@ label= "SYM"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷
 
-    &kp LBRC    &kp TILDE      &kp ESC    &kp CARET   &kp RBRC       &trans        &trans        &trans      &trans      &trans
-    &kp CAPS    &kp LS(RG(N4)) &kp SQT    &kp DQT     &trans         &kp C_MUTE    &trans        &trans      &trans      &trans
-    &kp RA(F18) &kp RA(F19)    &trans     &trans      &trans         &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp BSLH
-                                          &gif        &trans         &mo ADJ       &kp C_PP
+    &kp LBRC    &kp TILDE      &kp ESC        &kp CARET   &kp RBRC       &trans        &trans        &trans      &trans      &trans
+    &kp CAPS    &kp LS(RG(N4)) &kp SEMICOLON  &kp COLON   &trans         &kp C_MUTE    &trans        &trans      &trans      &trans
+    &kp RA(F18) &kp RA(F19)    &trans         &trans      &trans         &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp BSLH
+                                              &gif        &trans         &mo ADJ       &kp C_PP
                         >;
                 sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
